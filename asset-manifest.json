@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/webschool/static/css/main.ad895e0b.css",
+    "main.js": "/webschool/static/js/main.488325ff.js",
+    "static/js/453.17239af6.chunk.js": "/webschool/static/js/453.17239af6.chunk.js",
+    "static/media/teacher.png": "/webschool/static/media/teacher.39857b5a3a46c1caf8d3.png",
+    "static/media/enviroment.jpeg": "/webschool/static/media/enviroment.6aab263e0f808f21978b.jpeg",
+    "static/media/facility.jpeg": "/webschool/static/media/facility.60a52ea58ff7c7ec3840.jpeg",
+    "static/media/pic 3.jpeg": "/webschool/static/media/pic 3.bdeb272303f411d05985.jpeg",
+    "static/media/pic 1.jpeg": "/webschool/static/media/pic 1.fa1748c941fa709aa568.jpeg",
+    "static/media/pic 2.jpeg": "/webschool/static/media/pic 2.c3d2b56c6adcd7b00aa0.jpeg",
+    "static/media/logo.svg": "/webschool/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/webschool/index.html",
+    "main.ad895e0b.css.map": "/webschool/static/css/main.ad895e0b.css.map",
+    "main.488325ff.js.map": "/webschool/static/js/main.488325ff.js.map",
+    "453.17239af6.chunk.js.map": "/webschool/static/js/453.17239af6.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ad895e0b.css",
+    "static/js/main.488325ff.js"
+  ]
+}
