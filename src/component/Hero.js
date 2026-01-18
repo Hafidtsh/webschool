@@ -16,7 +16,7 @@ export default function Hero() {
     return () => clearInterval(interval);
   }, [images.length]);
   return (
-    <div>
+    <div style={{ backgroundImage: `url(${foto1})` }}>
       {/* Hero Section */}
       <section className="max-w-7xl mx-auto px-6 py-24 grid md:grid-cols-2 gap-12 items-center">
         <motion.div initial={{ opacity: 0, y: 40 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.6 }}>

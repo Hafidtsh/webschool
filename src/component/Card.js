@@ -3,7 +3,7 @@ import { motion } from "framer-motion";
 
 // import gambar
 import facility from "../assets/facility.jpeg";
-import teacher from "../assets/teacher.png";
+import teacher from "../assets/teacher2.jpeg";
 import environment from "../assets/enviroment.jpeg";
 
 export default function Card() {
@@ -19,9 +19,9 @@ export default function Card() {
       description: "Didukung oleh tenaga pengajar profesional dan berpengalaman.",
     },
     {
-      title: "Lingkungan Nyaman",
+      title: "Ekstrakurikuler",
       image: environment,
-      description: "Lingkungan sekolah yang aman, nyaman, dan kondusif.",
+      description: "Ekstrakurikuler Archery, Pencak Silat dll.",
     },
   ];
 
