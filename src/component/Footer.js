@@ -1,4 +1,4 @@
-import { FaInstagram, FaTiktok, FaYoutube } from "react-icons/fa";
+import { FaFacebook, FaInstagram, FaTiktok, FaTwitter, FaYoutube } from "react-icons/fa";
 
 export default function Footer() {
   return (
@@ -26,12 +26,18 @@ export default function Footer() {
           <a href="https://www.youtube.com/@darussalampurwakarta" target="_blank" rel="noopener noreferrer" className="p-2 rounded-full bg-blue-600 hover:bg-blue-500 transition">
             <FaYoutube size={18} />
           </a>
+          <a href="https://web.facebook.com/profile.php?id=100092544127425" target="_blank" rel="noopener noreferrer" className="p-2 rounded-full bg-blue-600 hover:bg-blue-500 transition">
+            <FaFacebook size={18} />
+          </a>
+          <a href="https://web.facebook.com/profile.php?id=100092544127425" target="_blank" rel="noopener noreferrer" className="p-2 rounded-full bg-blue-600 hover:bg-blue-500 transition">
+            <FaTwitter size={18} />
+          </a>
         </div>
       </div>
 
       {/* Copyright */}
       <div className="border-t border-blue-600">
-        <div className="max-w-7xl mx-auto px-6 py-6 text-center text-sm text-blue-100">© {new Date().getFullYear()} Sekolah Modern. All rights reserved.</div>
+        <div className="max-w-7xl mx-auto px-6 py-6 text-center text-sm text-blue-100">© {new Date().getFullYear()} Hafidtsh. All rights reserved.</div>
       </div>
     </footer>
   );
