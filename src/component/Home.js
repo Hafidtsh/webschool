@@ -12,7 +12,7 @@ export default function Home() {
       <Navbar />
 
       {/* HERO dengan background */}
-      <div className="relative min-h-[70vh] md:min-h-[80vh] bg-cover bg-center flex items-center" style={{ backgroundImage: `url(${foto1})` }}>
+      <div className="relative min-h-96 md:min-h-screen bg-cover bg-[10%_90%] flex items-center" style={{ backgroundImage: `url(${foto1})` }}>
         {/* Overlay */}
         <div className="absolute inset-0 bg-black/40" />
 
