@@ -5,6 +5,7 @@ import Hero from "./Hero";
 import Card from "./Card";
 import foto1 from "../assets/backgroud2.jpeg";
 import Profil from "./Profil";
+import Button from "./Button";
 
 export default function Home() {
   return (
@@ -23,6 +24,7 @@ export default function Home() {
       </div>
 
       {/* Section lain normal */}
+      <Button />
       <Profil />
       <Card />
       <Footer />

@@ -26,7 +26,7 @@ export default function Card() {
   ];
 
   return (
-    <section id="#card" className="max-w-7xl mx-auto px-6 py-20">
+    <section id="card" className="max-w-7xl mx-auto px-6 py-20">
       <h3 className="text-3xl font-bold text-center mb-12">Keunggulan Sekolah</h3>
 
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8">

@@ -29,7 +29,7 @@ export default function Footer() {
           <a href="https://web.facebook.com/profile.php?id=100092544127425" target="_blank" rel="noopener noreferrer" className="p-2 rounded-full bg-blue-600 hover:bg-blue-500 transition">
             <FaFacebook size={18} />
           </a>
-          <a href="https://web.facebook.com/profile.php?id=100092544127425" target="_blank" rel="noopener noreferrer" className="p-2 rounded-full bg-blue-600 hover:bg-blue-500 transition">
+          <a href="https://x.com/DarussalamSP23" target="_blank" rel="noopener noreferrer" className="p-2 rounded-full bg-blue-600 hover:bg-blue-500 transition">
             <FaTwitter size={18} />
           </a>
         </div>
