@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/webschool/static/css/main.fab4e897.css",
-    "main.js": "/webschool/static/js/main.b2b67e4c.js",
+    "main.js": "/webschool/static/js/main.5f39d4a6.js",
     "static/js/453.17239af6.chunk.js": "/webschool/static/js/453.17239af6.chunk.js",
     "static/media/backgroud2.jpeg": "/webschool/static/media/backgroud2.535bfce26f7c19b6eeb8.jpeg",
     "static/media/enviroment.jpeg": "/webschool/static/media/enviroment.6aab263e0f808f21978b.jpeg",
@@ -14,11 +14,11 @@
     "static/media/logo.svg": "/webschool/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/webschool/index.html",
     "main.fab4e897.css.map": "/webschool/static/css/main.fab4e897.css.map",
-    "main.b2b67e4c.js.map": "/webschool/static/js/main.b2b67e4c.js.map",
+    "main.5f39d4a6.js.map": "/webschool/static/js/main.5f39d4a6.js.map",
     "453.17239af6.chunk.js.map": "/webschool/static/js/453.17239af6.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.fab4e897.css",
-    "static/js/main.b2b67e4c.js"
+    "static/js/main.5f39d4a6.js"
   ]
 }
