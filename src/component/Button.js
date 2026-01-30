@@ -5,8 +5,8 @@ export default function Button() {
   return (
     <div className="flex justify-center items-center w-full px-4">
       <a
-        href="/files/brosur.pdf"
-        download
+        href={`${process.env.PUBLIC_URL}/files/brosur.pdf`}
+        download="brosur.pdf"
         className="
           inline-flex items-center gap-2
           px-5 py-3 md:px-6 md:py-3

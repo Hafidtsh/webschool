@@ -1,14 +1,16 @@
 import React from "react";
+import Artical from "./Artical.js";
 
 export default function Profil() {
   return (
-    <div>
-      <section id="profil" className="max-w-7xl mx-auto px-6 py-20">
-        <h2 className="text-3xl font-bold text-center mb-12">Media & Lokasi Sekolah</h2>
+    <section id="profil" className="max-w-7xl mx-auto px-6 py-20">
+      <h2 className="text-3xl font-bold text-center mb-12">Media, Lokasi & Artikel</h2>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-10">
+      <div className="grid grid-cols-1 lg:grid-cols-3 gap-10">
+        {/* Media & Lokasi (2 kolom) */}
+        <div className="lg:col-span-2 flex flex-col gap-10 items-center">
           {/* YouTube */}
-          <div>
+          <div className="max-w-3xl mx-auto w-full">
             <h3 className="text-xl font-semibold mb-4 text-center md:text-left">YouTube Sekolah</h3>
 
             <div className="relative w-full aspect-video rounded-2xl overflow-hidden shadow-md">
@@ -19,14 +21,14 @@ export default function Profil() {
                 frameBorder="0"
                 allow="autoplay; accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                 allowFullScreen
-              ></iframe>
+              />
             </div>
 
-            <p className="mt-4 text-gray-600 text-sm">Kunjungi channel YouTube kami untuk melihat kegiatan, profil, dan prestasi PM Darussalam Purwakarta.</p>
+            <p className="mt-4 text-gray-600 text-sm text-center md:text-left">Kunjungi channel YouTube kami untuk melihat kegiatan dan prestasi PM Darussalam Purwakarta.</p>
           </div>
 
           {/* Google Maps */}
-          <div>
+          <div className="max-w-3xl mx-auto w-full">
             <h3 className="text-xl font-semibold mb-4 text-center md:text-left">Lokasi Sekolah</h3>
 
             <div className="relative w-full aspect-video rounded-2xl overflow-hidden shadow-md">
@@ -36,13 +38,16 @@ export default function Profil() {
                 loading="lazy"
                 referrerPolicy="no-referrer-when-downgrade"
                 title="Lokasi Sekolah"
-              ></iframe>
+              />
             </div>
 
-            <p className="mt-4 text-gray-600 text-sm">Gg. Rawamekar, Kel. Tegal Munjul Kec. Purwakarta Kab. Purwakarta, Jawa Barat (41116)</p>
+            <p className="mt-4 text-gray-600 text-sm text-center md:text-left">Gg. Rawamekar, Kel. Tegal Munjul, Purwakarta, Jawa Barat (41116)</p>
           </div>
         </div>
-      </section>
-    </div>
+
+        {/* Artikel (1 kolom) */}
+        <Artical />
+      </div>
+    </section>
   );
 }
